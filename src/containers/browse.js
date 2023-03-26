@@ -7,7 +7,7 @@ import { FirebaseContext } from '../context/firebase';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
 import { Plans } from './Plans';
-
+import { Comments } from './Social';
 
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState('series');
@@ -127,6 +127,7 @@ export function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
+      <Comments />
       <Plans />
       <FooterContainer />
     </>

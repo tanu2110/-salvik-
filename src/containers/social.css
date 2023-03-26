@@ -4,23 +4,20 @@
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+.title-social{
+    color: rgb(140, 0, 0);
+    font-size: x-small;
+    justify-content: center;
+    text-align: center;
+}
 
 .sidebar{
-    display: flex;
-  }
+    width: 250px;
+    height: 500px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(140, 0, 0) ;
+    
+}
   
-  ul {
-    position: relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 70px;
-    height: 640px;
-    left: 23px;
-    top: 30px;
-    background:linear-gradient(180deg, #045B6F 0%, rgba(0, 0, 0, 0) 100%);
-    overflow: auto;
-    position: absolute;
-    text-align: center;   
-    overflow: hidden;
-  }
+ 

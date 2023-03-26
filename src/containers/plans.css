@@ -1,8 +1,9 @@
 .containerrs{
     padding-top: 250px;
-    padding-left: 58  px;
+    padding-left: 58px;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
 }
 .features-small-item {
     cursor: pointer;

@@ -1,32 +1,20 @@
 import React from 'react';
 import './social.css';
 
-export function Social() {
+export function Comments() {
   return (
     <section className="section home-feature" id="social">
       <div className="comments">
         <h2>Social</h2>
-        {/*<div className="sidebar">
+        <div className="title-social">
+          <h1> Salvik Social</h1>
+        </div>
+        <div className="sidebar">
+          <p>Trending Topics</p>
           <ul>
-            <li>
-              <a className="active" href="#profile">
-                Profile
-              </a>
-            </li>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#notification">Notifications</a>
-            </li>
-            <li>
-              <a href="#calendar">Calendar</a>
-            </li>
-            <li>
-              <a href="#settings">Settings</a>
-            </li>
+            <li>Trending Topics</li>
           </ul>
-  </div>*/}
+        </div>
       </div>
     </section>
   );
