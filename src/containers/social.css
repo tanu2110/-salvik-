@@ -12,12 +12,55 @@
 }
 
 .sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
     width: 250px;
+    border-radius: 15px;
     height: 500px;
+    margin-left:50px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 12px;
     background-color: rgb(140, 0, 0) ;
     
 }
+
+.sidebar p{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.sidebar img{
+    width: 15px;
+    height: 15px;
+    padding-top:7px ;
+}
+
+.discussion{
+    padding-left: 250px;
+    width:50%;
+    display: flex;
+    -webkit-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.85);
+-moz-box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.85);
+box-shadow: 14px 10px 5px 0px rgba(0,0,0,0.85);
+}
+.discussion p{
+    
+    color: white;
+}
+.discussion img{
+    width:15px;
+    height: 15px;
+    padding-right: 3px;
+}
   
- 
+.group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
