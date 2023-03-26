@@ -1,0 +1,112 @@
+.containerrs{
+    padding-top: 250px;
+    padding-left: 58  px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.features-small-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(98, 2, 2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    margin-bottom: 30px;
+    margin: 20px;
+    padding-top: 80px;
+    justify-content: center;
+  }
+
+  .second{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    color:white;
+    width:auto;
+    position:relative;
+    
+  }
+  
+  .features-small-item:hover .icon {
+    background-color:rosybrown;
+  }
+  
+  .features-small-item .icon {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width:110px;
+    height: 110px;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black ;
+    /*background-image: url("..\..\..\public\images\icons\add.png" );*/
+  }
+  
+  .features-small-item .icon i {
+
+    font-size: 18px;
+    color: white ;
+   /* background-image: url("../../../public/images/silver.jpeg" );*/
+  }
+  
+  .features-small-item .features-title {
+    font-weight: 500;
+    font-size: 18px;
+    color:black;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .features-small-item p {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+    align-content:flex-start;
+  }
+  
+  .features-small-item a {
+    float: right;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .home-feature {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -220px;
+    z-index: 9;
+  }
+  
+  @media (max-width: 991px) {
+    .home-feature {
+      padding-bottom: 0px;
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+  }
