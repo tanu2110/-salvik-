@@ -1,6 +1,26 @@
-.comment{
+.comments{
     padding-top: 250px;
     padding-left: 58px;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
+.sidebar{
+    display: flex;
+  }
+  
+  ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 640px;
+    left: 23px;
+    top: 30px;
+    background:linear-gradient(180deg, #045B6F 0%, rgba(0, 0, 0, 0) 100%);
+    overflow: auto;
+    position: absolute;
+    text-align: center;   
+    overflow: hidden;
+  }
